@@ -1,0 +1,98 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.number-col{
+  width: 50px;
+}
+
+.action-col{
+  width: 200px;
+}
+
+.img-container{
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  img{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.button {
+  display: inline-block;
+  width: 180px;
+  margin: 0.5em;
+  padding: 12px 14px;
+  background-color: #4fc08d;
+  font-weight: 700;
+  color: #fff;
+  border-bottom: 2px solid #3aa373;
+  border-radius: 4px;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.button:hover {
+  background-color: #5dc596;
+  -webkit-transform: translate(0, -2px);
+  -ms-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+}
+
+#social {
+  margin: 2em 0 3em;
+}
+
+#social iframe {
+  margin: 0 4px;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-45 {
+  width: 45% !important;
+}
+
+.nopadding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.limpiar-flotantes {
+  clear: both;
+}
+
+.input-group .form-control {
+  width: 100%;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.content-inner {
+  width: 100%;
+}
+
+.pagination {
+  margin-top: 15px;
+}

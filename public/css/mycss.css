@@ -1,0 +1,99 @@
+.disenio-boton-accion{
+  /* background-color: #ff0b21; */
+  background-color: #cc1c28;
+  color: white;
+}
+
+.disenio-boton-accion > i{
+  margin-right: 5px;
+}
+
+a:focus{
+  color: white;
+}
+
+.disenio-boton-accion:hover{
+  /* background-color: #cc1c28; */
+  background-color: #ff0b21;
+  color: white;
+}
+
+/* DISEÑO DEL PIE DE PAGINA */
+.page-item.active .page-link{
+  color: #fff;
+  background-color: #cc1c28;
+  border-color: #cc1c28;
+}
+
+.page-item.active .page-link:hover{
+  color: #fff;
+  background-color: #ff0b21;
+  border-color: #ff0b21;
+}
+
+/* ESTILO PARA LA PARTE DE OPCIONES */
+.botones-horizontal{
+  display: flex;
+}
+
+.botones-horizontal>a{
+  margin-right: 5px;
+}
+
+/* CAMBIO DE ESTILO PARA EL BOTON DE CARGA DE EXCEL */
+.xlsx-button{
+  border: 1px solid #cc1c28 !important;
+  background-color: #cc1c28 !important;
+}
+
+.xlsx-button:hover{
+  background-color: #ff0b21 !important;
+}
+
+/* ESTILOS PARA EL LOADER */
+.noloader{
+  display: none;
+}
+
+#mute {
+  position: absolute;
+  width: 0px;
+}
+
+#mute.off {
+  display: none;
+}
+
+#mute.off img,
+#mute img {
+  display: none;
+}
+
+#mute.on {
+  opacity: 0.5;
+  z-index: 1000;
+  background: #000;
+  height: 100%;
+  width: 100%;
+}
+
+#mute.h100 {
+  height: 100% !important;
+}
+
+#mute.on #content-mute {
+  height: 100%;
+  position: relative;
+} 
+
+#mute.on img {
+  display: block !important;
+  margin-top: -79px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.table-custom td {
+  padding: 0.2rem !important;
+}

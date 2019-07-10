@@ -1,0 +1,8 @@
+{
+    "name": "Documentación de la API",
+    "version": "1.0.0",
+    "description": "Administra la lista de tareas de la API",
+    "template": {
+        "forceLanguage": "en"
+    }
+}

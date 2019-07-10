@@ -1,0 +1,185 @@
+<div id="modalNotificacion" tabindex="-1" role="dialog" aria-labelledby="modalNotificacion" class="modal fade show" style="display: block; padding-right: 17px;">
+
+<div class="modal-backdrop fade show"></div>
+
+element.style {
+    display: block;
+    padding-right: 17px;
+}
+
+app.css
+-------
+
+.modal-backdrop.show {
+    opacity: 0.5;
+}
+
+app.css
+-------
+.modal-backdrop.fade {
+    opacity: 0; (tachado)
+}
+
+app.css
+-------
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+}
+
+app.css
+--------
+.fade {
+    -webkit-transition: opacity 0.15s linear; (tachado)
+    transition: opacity 0.15s linear;
+}
+
+app.css
+-------
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+app.css
+-------
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none; (tachado)
+    overflow: hidden; (tachado)
+    outline: 0;
+}
+
+app.css
+-------
+.fade {
+	transition: opacity 0.15s linear;
+}
+
+<div role="document" class="modal-dialog">
+
+app.css
+-------
+.modal.show .modal-dialog {
+    -webkit-transform: translate(0, 0); (tachado)
+    transform: translate(0, 0);
+}
+
+app.css
+-------
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform 0.3s ease-out; (tachado)
+    transition: -webkit-transform 0.3s ease-out; (tachado)
+    transition: transform 0.3s ease-out; (tachado)
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    -webkit-transform: translate(0, -25%); (tachado)
+    transform: translate(0, -25%); (tachado)
+}
+
+app.css
+-------
+@media (min-width: 576px)
+.modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+}
+
+app.css
+-------
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 0.5rem;
+    pointer-events: none;
+}
+
+all.css
+-------
+.modal-content {
+	border-radius: 0;
+}
+
+app.css
+-------
+.modal-content {
+    position: relative;
+    display: -webkit-box; (tachado)
+    display: -ms-flexbox; (tachado)
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem; (tachado)
+    outline: 0;
+}
+
+
+app.css
+--------
+.modal-header {
+    display: -webkit-box; (tachado)
+    display: -ms-flexbox; (tachado)
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start; (tachado)
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+app.css
+-------
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+app.css
+-------
+.modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+
+
+/// 23406386 - codigo anulación america express
+
+padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    font-weight: 300;
+    border-left: 4px solid transparent;
+
+04-052-868861
+Paul Javier Alburqueque
+
+
+errores
+-------
+paginado users, roles
+
