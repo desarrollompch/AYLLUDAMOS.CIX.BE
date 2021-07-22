@@ -33,6 +33,6 @@
         "vue-typeahead": "^2.3.2",
         "vue-xlsx-table": "^1.2.8",
         "vuejs-datepicker": "^1.5.2",
-        "xlsx": "^0.14.0"
+        "xlsx": "^0.17.0"
     }
 }
